@@ -1,0 +1,7 @@
+Create a Maven Project and provide proper Ground & Artifact Id
+pom.xml add dependencies -selenium,testng
+Common package have common classes Base class,ReadProperties file is created which is extended by rest of the TestSuite classes.
+Base class -methods before and After method (before method would launch the browser) after method used for reporting.
+Branch Test is a class which have actual testmethods
+Testng.xml file has the class path set.
+Right click the Tesng.xml file and run as TextNg project 
